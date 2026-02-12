@@ -16,7 +16,7 @@ class Lab2Agent(Agent):
         self.add_behaviour(SensorBehaviour(period=3))
 
 async def main():
-    agent = Lab2Agent("your_username@xmpp.jp", "your_password")
+    agent = Lab2Agent("bwamonoo_student@xmpp.jp", "Q86QY4Xni@AbtBf")
     await agent.start()
     
     # Run for 10 seconds only

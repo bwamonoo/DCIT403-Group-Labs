@@ -22,7 +22,7 @@ class Lab3Agent(Agent):
         self.add_behaviour(ReactiveBehaviour())
 
 async def main():
-    agent = Lab3Agent("your_username@xmpp.jp", "your_password")
+    agent = Lab3Agent("bwamonoo_student@xmpp.jp", "Q86QY4Xni@AbtBf")
     await agent.start()
     await asyncio.sleep(10)
     await agent.stop()

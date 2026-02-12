@@ -12,8 +12,7 @@ class Lab1Agent(Agent):
         self.add_behaviour(GreetingBehaviour())
 
 async def main():
-    # REPLACE WITH YOUR CREDENTIALS
-    agent = Lab1Agent("your_username@xmpp.jp", "your_password")
+    agent = Lab1Agent("bwamonoo_student@xmpp.jp", "Q86QY4Xni@AbtBf")
     await agent.start()
     
     # Wait for the agent to finish
