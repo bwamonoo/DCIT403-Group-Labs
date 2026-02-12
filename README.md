@@ -73,8 +73,3 @@ This project implements a decentralized multi-agent system (MAS) designed to coo
     
 3.  Bashpython lab4.py
     
-
-5\. Academic Integrity
-----------------------
-
-This work is prepared for the University of Ghana, Department of Computer Science. All submissions represent original work following the Prometheus agent-oriented software engineering methodology.
