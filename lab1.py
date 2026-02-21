@@ -4,11 +4,20 @@ from spade.behaviour import OneShotBehaviour
 
 class GreetingBehaviour(OneShotBehaviour):
     async def run(self):
-        print("Lab 1: Agent connected successfully!")
+        my_id = str(self.agent.jid)
+        
+        print("-------------------------------------------------")
+        print(f"SYSTEM STATUS: ONLINE")
+        print(f"IDENTITY VERIFIED: {my_id}")
+        print("CONNECTION ESTABLISHED: xmpp.jp Server")
+        print("I am awake and awaiting instructions.")
+        print("-------------------------------------------------")
+        
         await self.agent.stop()
 
 class Lab1Agent(Agent):
     async def setup(self):
+        print(f"Agent {self.jid} is booting up...")
         self.add_behaviour(GreetingBehaviour())
 
 async def main():
