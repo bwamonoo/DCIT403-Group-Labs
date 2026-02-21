@@ -2,7 +2,6 @@ import asyncio
 from agents import SensorAgent, CoordinatorAgent, RescueAgent
 
 async def run_simulation():
-    # Credentials (Update with your specific XMPP JIDs)
     c_jid = "coordinator_ben@xmpp.jp"
     r_jid = "rescuer_son@xmpp.jp"
     s_jid = "sensor_eli@xmpp.jp"

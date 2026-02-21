@@ -2,7 +2,7 @@ import asyncio
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour, PeriodicBehaviour
 from spade.message import Message
-from sensors import UltrasonicDepthGauge
+from sensors.ultrasonic_gauge import UltrasonicDepthGauge
 
 # ---------------------------------------------------------
 # 1. SENSOR AGENT: Perception & Informing
